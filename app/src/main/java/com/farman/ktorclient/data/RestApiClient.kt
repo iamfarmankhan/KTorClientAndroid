@@ -23,7 +23,7 @@ class RestApiClient {
         install(Logging)
 
         install(DefaultRequest){
-            header("Authorization","Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmNzkxMzExZTg2MGFkZmE0OGUxOGExZjg3NjFjZmY3ZCIsInN1YiI6IjY0Y2Y2ZTE5NmQ0Yzk3MDEyZThiMzZlOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.a4H7E5L4HAFPSoDL8juyBRqApZgvVjCf_2gIOE3wYAI")
+            header("Authorization","Bearer API_TOKEN_HERE")
         }
     }
 
